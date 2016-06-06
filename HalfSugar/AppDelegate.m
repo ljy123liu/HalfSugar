@@ -20,7 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self setAppSubject];
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [[MainNavigationViewController alloc]init];
+    self.window.rootViewController = [[MainTabBarViewController alloc]init];
     [self.window makeKeyAndVisible];
     return YES;
 }
