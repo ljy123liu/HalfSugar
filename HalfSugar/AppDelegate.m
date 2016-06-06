@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MainTabBarViewController.h"
+#import "Const.h"
+#import "MainNavigationViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,9 +18,22 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self setAppSubject];
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[MainNavigationViewController alloc]init];
+    [self.window makeKeyAndVisible];
     return YES;
 }
+
+- (void)setAppSubject{
+    UITabBar *tabbar = [UITabBar appearance];
+    tabbar.translucent = NO;
+    UINavigationBar *navBar = [UINavigationBar appearance];
+    navBar.barTintColor = [UIColor colorWithRed:0.906 green:0.220 blue:0.239 alpha:1.000];
+    navBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName:[UIFont fontWithName:LightFont size:17]};
+    navBar.tintColor = [UIColor whiteColor];
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
