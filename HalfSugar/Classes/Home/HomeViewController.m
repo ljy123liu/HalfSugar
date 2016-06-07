@@ -249,6 +249,7 @@ static const CGFloat kHotViewMargin = 10;
 
 #pragma titleScrollView delegate
 - (void)titleScrollView:(TitleScrollView *)titleScrollView didSelectedAtIndex:(NSInteger)index {
+    
     [self.mainCollectionView setContentOffset:CGPointMake(Width * index, 0) animated:YES];
 }
 

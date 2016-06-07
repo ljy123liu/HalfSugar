@@ -86,14 +86,17 @@
 
 - (void)titleLabelClicked:(UITapGestureRecognizer *)tap {
     NSInteger index = tap.view.tag;
+    
     [self titleScrollViewScrollTo:index];
+    
     if (self.delegate) {
         [self.delegate titleScrollView:self didSelectedAtIndex:index];
     }
 }
 
 - (void)titleScrollViewScrollTo:(NSInteger)index {
-    for (NSInteger i = 0; i < _contentView.subviews.count; i++) {
+    
+    for (NSInteger i = 0; i < _contentView.subviews.count-1; i++) {
         UILabel *label = _contentView.subviews[i];
         label.highlighted = NO;
         label.font = [UIFont fontWithName:ThinFont size:14];
