@@ -6,8 +6,7 @@
 //  Copyright © 2016年 WanJianTechnology. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface HomeViewController : UIViewController
-
+#import "BaseViewController.h"
+@interface HomeViewController : BaseViewController
+@property (nonatomic,strong) UITableView *currentTableView;
 @end

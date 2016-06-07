@@ -30,6 +30,7 @@ static const NSInteger MaxImageViewCount = 3;
     return banner;
 }
 
+#pragma mark - UI
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         self.imageScrollView =({
@@ -54,10 +55,6 @@ static const NSInteger MaxImageViewCount = 3;
         self.pageControl.pageIndicatorTintColor = [UIColor colorWithRed:239/255.0 green:239/255.0 blue:239/255.0 alpha:1.0];
     }
     return self;
-}
-
-- (void)imageViewClicked:(UITapGestureRecognizer *)tap {
-    
 }
 
 - (void)layoutSubviews {
@@ -98,7 +95,7 @@ static const NSInteger MaxImageViewCount = 3;
         NSInteger index = self.pageControl.currentPage;
         
         if (i == 0) {
-            index--;
+            index --;
         }else if(i == 2){
             index ++;
         }
@@ -123,6 +120,7 @@ static const NSInteger MaxImageViewCount = 3;
     [self updateBannerScrollView];
 }
 
+#pragma mark - Timer
 - (void)startTimer {
     self.timer = [NSTimer timerWithTimeInterval:3.0 target:self selector:@selector(next) userInfo:nil repeats:YES];
     [[NSRunLoop currentRunLoop]addTimer:self.timer forMode:NSDefaultRunLoopMode];
@@ -137,7 +135,7 @@ static const NSInteger MaxImageViewCount = 3;
 }
 
 - (void)next {
-    [self.imageScrollView setContentOffset:CGPointMake(self.imageScrollView.frame.size.width * 2, 0) animated:YES];
+    [self.imageScrollView setContentOffset:CGPointMake(self.imageScrollView.width * 2, 0) animated:YES];
 }
 
 #pragma mark - UIScrollViewDelegate
@@ -146,6 +144,12 @@ static const NSInteger MaxImageViewCount = 3;
     NSInteger page = 0;
     for (NSInteger i = 0; i<self.imageScrollView.subviews.count; i++) {
         UIImageView *imageView = self.imageScrollView.subviews[i];
+        /**
+         *
+         int abs(int i);                   处理int类型的取绝对值
+         double fabs(double i);            处理double类型的取绝对值
+         float fabsf(float i);             处理float类型的取绝对值
+         */
         CGFloat distance = fabs(self.imageScrollView.contentOffset.x - imageView.frame.origin.x);
         if (distance < minDistance) {
             minDistance = distance;
@@ -160,6 +164,11 @@ static const NSInteger MaxImageViewCount = 3;
 
 - (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView {
     [self updateBannerScrollView];
+}
+
+#pragma mark - EvenResopnses
+- (void)imageViewClicked:(UITapGestureRecognizer *)tap {
+    
 }
 
 @end

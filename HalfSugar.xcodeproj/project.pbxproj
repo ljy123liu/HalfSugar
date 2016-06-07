@@ -56,6 +56,15 @@
 		2DDC4C521D067AE800D02002 /* UserRecomendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC4C511D067AE800D02002 /* UserRecomendModel.m */; };
 		2DDC4C551D0691E100D02002 /* BannerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC4C541D0691E100D02002 /* BannerScrollView.m */; };
 		2DDC4C581D06984A00D02002 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC4C571D06984A00D02002 /* UIView+Extension.m */; };
+		2DDC4C5B1D06A0E100D02002 /* HomeHotItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC4C5A1D06A0E100D02002 /* HomeHotItemView.m */; };
+		2DDC4C5E1D06A6BB00D02002 /* TitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC4C5D1D06A6BB00D02002 /* TitleScrollView.m */; };
+		2DDC4C611D06B49F00D02002 /* HomeHotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC4C601D06B49F00D02002 /* HomeHotView.m */; };
+		2DDC4C641D06BAA300D02002 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC4C631D06BAA300D02002 /* HomeCell.m */; };
+		2DDC4C671D06BCDF00D02002 /* HomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC4C661D06BCDF00D02002 /* HomeHeadView.m */; };
+		2DDC4C6A1D06BEB400D02002 /* HomeCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC4C691D06BEB400D02002 /* HomeCollectionCell.m */; };
+		2DDC4C6D1D06C22200D02002 /* HomeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC4C6C1D06C22200D02002 /* HomeScrollView.m */; };
+		2DDC4C701D06C2EA00D02002 /* ProductDetailControler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC4C6F1D06C2EA00D02002 /* ProductDetailControler.m */; };
+		2DDC4C731D06C92700D02002 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDC4C721D06C92700D02002 /* BaseViewController.m */; };
 		C54326BC2674619CC1429EDA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A79C13963A2318A0ACE76E82 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -145,6 +154,24 @@
 		2DDC4C541D0691E100D02002 /* BannerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerScrollView.m; sourceTree = "<group>"; };
 		2DDC4C561D06984A00D02002 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		2DDC4C571D06984A00D02002 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		2DDC4C591D06A0E100D02002 /* HomeHotItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeHotItemView.h; sourceTree = "<group>"; };
+		2DDC4C5A1D06A0E100D02002 /* HomeHotItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeHotItemView.m; sourceTree = "<group>"; };
+		2DDC4C5C1D06A6BB00D02002 /* TitleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScrollView.h; sourceTree = "<group>"; };
+		2DDC4C5D1D06A6BB00D02002 /* TitleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScrollView.m; sourceTree = "<group>"; };
+		2DDC4C5F1D06B49F00D02002 /* HomeHotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeHotView.h; sourceTree = "<group>"; };
+		2DDC4C601D06B49F00D02002 /* HomeHotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeHotView.m; sourceTree = "<group>"; };
+		2DDC4C621D06BAA300D02002 /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		2DDC4C631D06BAA300D02002 /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		2DDC4C651D06BCDF00D02002 /* HomeHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeHeadView.h; sourceTree = "<group>"; };
+		2DDC4C661D06BCDF00D02002 /* HomeHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeHeadView.m; sourceTree = "<group>"; };
+		2DDC4C681D06BEB400D02002 /* HomeCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionCell.h; sourceTree = "<group>"; };
+		2DDC4C691D06BEB400D02002 /* HomeCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionCell.m; sourceTree = "<group>"; };
+		2DDC4C6B1D06C22200D02002 /* HomeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScrollView.h; sourceTree = "<group>"; };
+		2DDC4C6C1D06C22200D02002 /* HomeScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScrollView.m; sourceTree = "<group>"; };
+		2DDC4C6E1D06C2EA00D02002 /* ProductDetailControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailControler.h; sourceTree = "<group>"; };
+		2DDC4C6F1D06C2EA00D02002 /* ProductDetailControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailControler.m; sourceTree = "<group>"; };
+		2DDC4C711D06C92700D02002 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		2DDC4C721D06C92700D02002 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		3780F3C62E39E6D636657FE7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6B4CE5FD1003CEB6191BB069 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A79C13963A2318A0ACE76E82 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -274,6 +301,8 @@
 				2DAA91271D047C6400C1476B /* MainNavigationViewController.m */,
 				2DAA91281D047C6400C1476B /* MainTabBarViewController.h */,
 				2DAA91291D047C6400C1476B /* MainTabBarViewController.m */,
+				2DDC4C711D06C92700D02002 /* BaseViewController.h */,
+				2DDC4C721D06C92700D02002 /* BaseViewController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -370,6 +399,8 @@
 				2DAA91201D047C6400C1476B /* HomePushTransitionAnimator.m */,
 				2DAA91211D047C6400C1476B /* HomeViewController.h */,
 				2DAA91221D047C6400C1476B /* HomeViewController.m */,
+				2DDC4C6E1D06C2EA00D02002 /* ProductDetailControler.h */,
+				2DDC4C6F1D06C2EA00D02002 /* ProductDetailControler.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -392,6 +423,20 @@
 			children = (
 				2DDC4C531D0691E100D02002 /* BannerScrollView.h */,
 				2DDC4C541D0691E100D02002 /* BannerScrollView.m */,
+				2DDC4C591D06A0E100D02002 /* HomeHotItemView.h */,
+				2DDC4C5A1D06A0E100D02002 /* HomeHotItemView.m */,
+				2DDC4C5C1D06A6BB00D02002 /* TitleScrollView.h */,
+				2DDC4C5D1D06A6BB00D02002 /* TitleScrollView.m */,
+				2DDC4C5F1D06B49F00D02002 /* HomeHotView.h */,
+				2DDC4C601D06B49F00D02002 /* HomeHotView.m */,
+				2DDC4C621D06BAA300D02002 /* HomeCell.h */,
+				2DDC4C631D06BAA300D02002 /* HomeCell.m */,
+				2DDC4C651D06BCDF00D02002 /* HomeHeadView.h */,
+				2DDC4C661D06BCDF00D02002 /* HomeHeadView.m */,
+				2DDC4C681D06BEB400D02002 /* HomeCollectionCell.h */,
+				2DDC4C691D06BEB400D02002 /* HomeCollectionCell.m */,
+				2DDC4C6B1D06C22200D02002 /* HomeScrollView.h */,
+				2DDC4C6C1D06C22200D02002 /* HomeScrollView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -587,26 +632,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DDC4C6D1D06C22200D02002 /* HomeScrollView.m in Sources */,
+				2DDC4C5E1D06A6BB00D02002 /* TitleScrollView.m in Sources */,
 				2DAA91481D047C6400C1476B /* MainNavigationViewController.m in Sources */,
 				2DAA914D1D047C6400C1476B /* SquareViewController.m in Sources */,
 				2DDC4C581D06984A00D02002 /* UIView+Extension.m in Sources */,
+				2DDC4C6A1D06BEB400D02002 /* HomeCollectionCell.m in Sources */,
 				2DAA91441D047C6400C1476B /* UINavigationBar+Extension.m in Sources */,
+				2DDC4C671D06BCDF00D02002 /* HomeHeadView.m in Sources */,
 				2DAA914A1D047C6400C1476B /* MessageViewController.m in Sources */,
 				2DAA91411D047C6400C1476B /* UIBarButtonItem+Extension.m in Sources */,
 				2DAA90F71D047C2900C1476B /* ViewController.m in Sources */,
+				2DDC4C5B1D06A0E100D02002 /* HomeHotItemView.m in Sources */,
+				2DDC4C611D06B49F00D02002 /* HomeHotView.m in Sources */,
 				2DDC4C4F1D0678B300D02002 /* TopicDetailModel.m in Sources */,
 				2DAA91421D047C6400C1476B /* UIColor+Extension.m in Sources */,
 				2DAA90F41D047C2900C1476B /* AppDelegate.m in Sources */,
 				2DDC4C4C1D0676C900D02002 /* HomeModel.m in Sources */,
+				2DDC4C731D06C92700D02002 /* BaseViewController.m in Sources */,
 				2DAA91461D047C6400C1476B /* HomeViewController.m in Sources */,
 				2DAA91501D047C6400C1476B /* Const.m in Sources */,
 				2DAA91431D047C6400C1476B /* UIImageView+Extension.m in Sources */,
 				2DAA91471D047C6400C1476B /* AppSignView.m in Sources */,
+				2DDC4C641D06BAA300D02002 /* HomeCell.m in Sources */,
 				2DDC4C551D0691E100D02002 /* BannerScrollView.m in Sources */,
 				2DAA91491D047C6400C1476B /* MainTabBarViewController.m in Sources */,
 				2DDC4C521D067AE800D02002 /* UserRecomendModel.m in Sources */,
 				2DAA91451D047C6400C1476B /* HomePushTransitionAnimator.m in Sources */,
 				2DAA90F11D047C2900C1476B /* main.m in Sources */,
+				2DDC4C701D06C2EA00D02002 /* ProductDetailControler.m in Sources */,
 				2DAA914B1D047C6400C1476B /* PersonalCenterViewController.m in Sources */,
 				2DAA914C1D047C6400C1476B /* PhotoController.m in Sources */,
 			);
